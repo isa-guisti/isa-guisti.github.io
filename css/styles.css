@@ -1,0 +1,181 @@
+body {
+    background-color: #F3EEE8;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    height: 1000px;
+}
+
+.navbar {
+    font-size: 23px;
+    background-color: #F3EEE8;
+    overflow: hidden;
+
+    padding: 10px 0;
+    width: 100%;
+    position: static;
+    top: 0;
+    transition: top 0.3s;
+}
+
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #DAB2C7;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #CE89AD;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: 250;
+    text-decoration: underline;
+    color: #CE89AD;
+    text-shadow: 3px 3px 4px #CE89AD;
+}
+
+.c-proj {
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 200;
+    color: #CE89AD;
+    text-shadow: 1px 1px 2px #CE89AD;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.p-proj {
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 200;
+    color: #CE89AD;
+    text-shadow: 1px 1px 2px #CE89AD;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.h1-pink {
+    font-size: 20px;
+    color: #CE89AD;
+}
+
+.curr-proj {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    text-align: left;
+    color: #CE89AD;
+}
+
+.past-proj {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    text-align: left;
+    color: #CE89AD;
+}
+
+.c-proj-list {
+    margin-bottom: 20px;
+    list-style-type: square;
+    font-size: 19px;
+    text-align: left;
+    color: #CE89AD;
+}
+
+.p-proj-list {
+    margin-bottom: 20px;
+    list-style-type: square;
+    font-size: 19px;
+    text-align: left;
+    color: #CE89AD;
+}
+
+.bow-left-img {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.bow-right-img {
+    position: absolute;
+    top: 200px;
+    left: 1520px;
+    width: 120px;
+    height: auto;
+    margin-right: -10px;
+    vertical-align: middle;
+}
+
+.book-img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+}
+
+.header {
+    background-color: #DFCCD6;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.current-projects {
+    background-color: #F3EEE8;
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.past-projects {
+    background-color: #F3EEE8;
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.content {
+    margin-top: -30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.col-container {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.col-item {
+    padding: 20px;
+    box-sizing: border-box;
+}
