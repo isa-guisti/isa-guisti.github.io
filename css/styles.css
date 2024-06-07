@@ -66,6 +66,7 @@ body {
 .curr-proj {
     margin-top: 10px;
     margin-bottom: 5px;
+    padding-left: 20px;
     font-size: 19px;
     text-align: left;
     color: #CE89AD;
@@ -74,6 +75,7 @@ body {
 .past-proj {
     margin-top: 10px;
     margin-bottom: 5px;
+    padding-right: 20px;
     font-size: 19px;
     text-align: left;
     color: #CE89AD;
@@ -81,6 +83,7 @@ body {
 
 .c-proj-list {
     margin-bottom: 20px;
+    padding-left: 50px;
     list-style-type: square;
     font-size: 19px;
     text-align: left;
@@ -89,6 +92,7 @@ body {
 
 .p-proj-list {
     margin-bottom: 20px;
+    padding-right: 50px;
     list-style-type: square;
     font-size: 19px;
     text-align: left;
@@ -176,5 +180,6 @@ body {
 }
 
 .col-item {
+    padding: 0px;
     box-sizing: border-box;
 }
