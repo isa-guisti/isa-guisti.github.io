@@ -134,11 +134,16 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
 .header {
     background-color: #DFCCD6;
     margin-top: 5px;
-    margin-left: -10px;
-    margin-right: -10px;
     padding-top: 150px;
     padding-bottom: 40px;
     text-align: center;
