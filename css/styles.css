@@ -99,26 +99,6 @@ body {
     color: #CE89AD;
 }
 
-.bow-left-img {
-    position: absolute;
-    top: 200px;
-    left: 300px;
-    width: 120px;
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
-.bow-right-img {
-    position: absolute;
-    top: 200px;
-    left: 1520px;
-    width: 120px;
-    height: auto;
-    margin-right: -10px;
-    vertical-align: middle;
-}
-
 .book-img {
     width: 30px;
     height: auto;
@@ -128,15 +108,60 @@ body {
 
 @media (min-width: 1024px) {
     .navbar {
-      flex-direction: row;
-      justify-content: space-around;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .col-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bow-left-img, .bow-right-img {
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: auto;
+    }
+
+    .bow-left-img {
+        top: 200px;
+        left: 300px;
+    }
+
+    .bow-right-img {
+        top: 200px;
+        right: 300px;
     }
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        padding: 10px;
+    .navbar a {
+        float: none;
+        display: block;
         text-align: center;
+    }
+
+    .header {
+        padding-top: 100px;
+    }
+
+    .col-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .curr-proj, .past-proj {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .c-proj-list, .p-proj-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content {
+        padding: 20px;
     }
 }
 
