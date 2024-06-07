@@ -17,11 +17,6 @@ body {
     transition: top 0.3s;
 }
 
-.navbar.fixed {
-    position: fixed;
-    top: 0;
-}
-
 .navbar a {
     float: left;
     display: block;
@@ -143,9 +138,8 @@ body {
 
 .header {
     background-color: #DFCCD6;
-    margin-top: 5px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
     padding-top: 150px;
     padding-bottom: 40px;
     text-align: center;
