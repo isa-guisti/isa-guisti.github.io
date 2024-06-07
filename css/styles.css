@@ -173,10 +173,9 @@ body {
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
 }
 
 .col-item {
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
