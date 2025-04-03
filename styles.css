@@ -1,0 +1,77 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    margin: 0;
+    height: 100vh;
+    background-color: #eadcfa;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+
+    width: 250px;
+    height: 75px;
+    background-color: #592f83;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+
+    width: 175px;
+    height: 35px;
+    background-color: #eadcfa;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+    color: #2d1e64;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #b795d7;
+    font-weight: bold;
+}
+
+.monitor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    position: absolute;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 115px;
+    position: absolute;
+}

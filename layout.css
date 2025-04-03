@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 45px;
+    padding-left: 15px;
+    overflow: hidden;
+
+    background-color: #b795d7;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.column-1, .column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: #cbb5df;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+    border-radius: 8px;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+
+.image-container:hover {
+    background-color: #cbb5df;
+    font-weight: bold;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    margin-top: 10px;
+    text-align: center;
+    color: #eadcfa;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.box {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    height: 350px;
+    width: 600px;
+    max-width: 50%;
+    padding: 30px;
+    padding-top: 60px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    background-color: #eadcfa;
+    border-radius: 10%;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.box.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.close {
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 50px;
+    border: none;
+    background-color: #eadcfa;
+    color: red;
+}
+
+.close:hover {
+    font-weight: bold;
+}
+
+.footer {
+    display: none;
+    justify-content: space-around;
+    padding: 25px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: #cbb5df;
+}
+

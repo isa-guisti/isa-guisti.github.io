@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your desktop</title>
+    <link rel="icon" href="img/heart.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="layout.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header"></div>
+
+    <div class="content">
+        <div class="column-1">
+            <div class="image-container" id="diaryDiv">
+                <img src="img/diary.png" height="100px" width="100px">
+                <p>Projects</p>
+            </div>
+            <div class="image-container" id="zoomDiv">
+                <img src="img/zoom.png" height="100px" width="100px">
+                <p>About Me</p>
+            </div>
+            <div class="image-container">
+                <a href="files/Guisti_Resume.pdf" target="_blank" style="text-decoration: none;">
+                    <img src="img/note.png" height="100px" width="100px">
+                    <p>Resume.pdf</p>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="column-2">
+            <div class="image-container">
+                <a href="mailto:isaguisti@hotmail.com" target="_blank" style="text-decoration: none;">
+                    <img src="img/www.png" height="100px" width="100px" alt="Email">
+                    <p>Email</p>
+                </a>
+            </div>
+            <div class="image-container">
+                <a href="https://github.com/isa-guisti" target="_blank" style="text-decoration: none;">
+                    <img src="img/users.png" height="100px" width="100px">
+                    <p>Github</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-me" class="box">
+        <button class="close">X</button>
+        <p> Hello! I’m Isabella, a third-year undergraduate student at Clarkson University 
+            pursuing a major in Computer Science with a Mathematics minor. My interests 
+            greatly focus on web application development! Currently I am seeking an internship 
+            opportunity for Summer of 2025.</p>
+    </div>
+
+    <div id="projects" class="box">
+        <button class="close">X</button>
+        <div class="project-list">
+            <div class="project">
+                <h4>Expense Tracker/Budget Manager</h4>
+                <p>A simple little tool to help keep track of expenses while being
+                    able to add your incomes and manage a budget! This project runs
+                    straight from the command line and even uses a simple file handling
+                    system so that data is saved across sessions. Built using Python!</p>
+                    This project will be added to my GitHub soon.
+            </div>
+    </div>
+
+    <div class="footer"></div>
+</body>
+</html>
